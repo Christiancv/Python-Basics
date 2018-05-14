@@ -21,7 +21,7 @@ for book in books:
     print("* " + book)
 
 def display_wishlist(display_name, wishes):
-    items = wishes.copy()
+    items = w
     print(display_name + ":")
     suggested_gift = items.pop(0)
     print("======>", suggested_gift, "<======")
